@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de QR Code</title>
+
+    <!-- Bootstrap -->
+     </head>
+
+<body>
+    
+    <section>
+        <h2 class="title-page">Gestão de Conteúdo WEB</h2>
+        <div class="row">
+            <input type="color" class="light" value="#ffffff">
+            <input type="color" class="dark">
+            <select class="sizes">
+                <option value="100">100×100</option>
+                <option value="200">200×200</option>
+                <option value="300">300×300</option>
+                <option selected value="400">400×400</option>
+                <option value="500">500×500</option>
+                <option value="600">600×600</option>
+                <option value="700">700×700</option>
+                <option value="800">800×800</option>
+                <option value="900">900×900</option>
+                <option value="1000">1000×1000</option>
+            </select>
+        </div>
+        <input type="text" class="qr-text" placeholder="Insira o texto do seu QR Code">
+        <div id="qr-code"></div>
+        <div class="action-container">
+            <a href="#" class="download btn" download="QRCode">
+                <span>Download</span>
+                <img src="download.svg" alt="">
+            </a>
+            <button class="btn share-btn">
+                <span>Compartilhar</span>
+                <img src="share.svg" alt="">
+            </button>
+        </div>
+        <div class="wrapper">
+        <form action="#">
+            <input type="file"class="file-input" hidden>
+            <img src="#" alt="">
+            <div class="content">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>Insira a imagem do seu QR Code</p>
+            </div>
+        </form>
+        <div class="details">
+            <textarea spellcheck="false" disabled></textarea>
+            <div class="buttons">
+                <button class="close">Fechar</button>
+                <button class="copy">Copiar Texto</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-page">Feito Por: Antonio Henrique de Andrade Gomes N°02 <br>
+                                                            Paulo Haruo Magalhães Amemyia N°31</div>
+    </section>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="index.js"></script>
+    <script src="reader.js"></script>
+</body>
+
+</html>
