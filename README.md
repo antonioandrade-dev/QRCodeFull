@@ -17,7 +17,7 @@ Feito por Antonio Henrique de Andrade e Paulo Haruo Magalhães Amemyia
 <!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,visualcode" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,codestudio" />
   </a>
 </p>
 <!-- [![My Skills](https://skillicons.dev/icons?i=java,androidstudio,postman,figma,mysql,php)](https://skillicons.dev) -->
@@ -25,7 +25,7 @@ Feito por Antonio Henrique de Andrade e Paulo Haruo Magalhães Amemyia
 ## Como Instalar?
 
 Faça o download pelo botão abaixo. <br><br>
-[![My Skills](https://skillicons.dev/icons?i=windows)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=windows)](https://githubusercontent.com/)
 
 ## Contribuições
 
@@ -34,7 +34,7 @@ Faça o download pelo botão abaixo. <br><br>
 
 ## Contribuidores Oficiais
 
-<a href="https://github.com/LucasCerqueira-100">
+<a href="https://github.com/antonioandrade-dev">
   <img src="https://avatars.githubusercontent.com/u/251222310?v=4" width="300px" width="300px" style="border-radius:100;" />
 </a>
 
